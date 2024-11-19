@@ -8,6 +8,9 @@ namespace MToD
         static public void run()
         {
             RunSimulation();
+            string filePath = "C:\\Users\\kopan\\source\\repos\\MToD\\MToD\\MToD_lab11.cs";
+            ProgramTextAnalyzer.AnalyzeProgramText(filePath);
+            ProgramTextAnalyzer.CompareWithTheoreticalLength(filePath);
         }
 
         static public void RunSimulation()
